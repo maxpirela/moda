@@ -1,0 +1,54 @@
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+.responsive-img {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+ img {
+  -webkit-transform: scale(1.5);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+ img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1.2);
+}
+.light{
+  color: black;
+}
+.center{
+  color: black;
+}
+
+p{
+  color: black;
+}
+i.icon-blue {
+  color: white;
+}
+
+.carousel .carousel-item>img {
+  width: 230%; //there you set the width
+  
+}
+ul side-nav{
+  color:white
+}
+.navb{
+ position:fixed;
+ background-color: black;
+ z-index: 1000;
+
+}
+nav ul a ,
+nav .brand-logo {
+ color: white;
+ 
+}
